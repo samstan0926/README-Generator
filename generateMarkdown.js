@@ -198,10 +198,10 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  # Email
-  ${data.email}
-  # GitHub
-  ${data.github}
+
+  Email: ${data.email}
+
+  GitHub: ${data.github}
   `;
 }
 
