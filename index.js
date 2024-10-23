@@ -74,7 +74,7 @@ inquirer
     ])
     .then((data) => {
         let fileData = generateMarkdown(data);
-        writeToFile('README.md', fileData);
+        writeToFile('SAMPLE.md', fileData);
 
     })
 }

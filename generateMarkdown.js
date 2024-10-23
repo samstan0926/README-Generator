@@ -35,7 +35,7 @@ function renderLicenseLink(license) {
     let licenseLink = "https://opensource.org/licenses/ISC";
     return licenseLink;
   }
-  if(license == "Apache"){
+  if(license == "Apache 2.0"){
     let licenseLink = "https://opensource.org/licenses/Apache-2.0";
     return licenseLink;
   }
@@ -79,7 +79,7 @@ let licenseSection = "";
     WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.`;
     return licenseSection;
   }
-  if (license == "Apache"){
+  if (license == "Apache 2.0"){
     let licenseSection = `
     TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -128,7 +128,7 @@ let licenseSection = "";
     9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
 
     END OF TERMS AND CONDITIONS`;
-return licenseSection;
+    return licenseSection;
   }
   if (license == "Boost"){
     let licenseSection = `
@@ -155,7 +155,7 @@ return licenseSection;
     FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
     ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
     DEALINGS IN THE SOFTWARE.`;
-return licenseSection;
+    return licenseSection;
 
   } else {
     let licenseSection = "------";

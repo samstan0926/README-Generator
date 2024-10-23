@@ -1,19 +1,19 @@
-# Sample
+# README Generator
   ## Description
-  Sample
+  Takes user input and generates a README file. 
   ## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+ - [Installation](#installation)
+ - [Usage](#usage)
+ - [Credits](#questions)
+ - [License](#license)
   
 
   ## Installation
-  Sample
+  From my username on github.
   ## Usage
-  Sample
+  Run the index.js file and type in the input.
   ## License
   
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), 
@@ -28,12 +28,13 @@
   https://opensource.org/licenses/MIT
 
   ## How to Contribute
-  Sample
+  Contact me from my contact info in the the questions section.
   ## Tests
-  Sample
+  Use the project
   ## Questions
 
-  Email: sample@gmail.com
+  Email: samstan092@gmail.com
 
-  GitHub: sampleuser
-  
+  GitHub: samstan0926
+
+
